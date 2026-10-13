@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" stroke="none" role="img" aria-labelledby="title desc">
+  <title id="title">Hyperdrive Technology</title>
+  <desc id="desc">An isometric industrial H with a cyan flow bridge on deep navy.</desc>
+  <rect width="512" height="512" rx="96" fill="#0f1b2d"/>
+  <!-- Shallow extrusion: shared depth vector (24, -14). -->
+  <g fill="#f4f4f4" fill-opacity="0.6">
+    <path d="M196 160 220 146V370L196 384Z"/>
+    <path d="M384 160 408 146V370L384 384Z"/>
+  </g>
+  <g fill="#f4f4f4">
+    <path d="M128 160 152 146H220L196 160Z"/>
+    <path d="M316 160 340 146H408L384 160Z"/>
+    <path d="M128 160H196V384H128Z"/>
+    <path d="M316 160H384V384H316Z"/>
+  </g>
+  <path d="M196 248 220 234H316V248Z" fill="#18bae6" fill-opacity="0.65"/>
+  <path d="M196 248H316V304H196Z" fill="#18bae6"/>
+</svg>
