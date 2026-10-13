@@ -42,7 +42,7 @@ follows M1.
 1. Choose a repository and read its README and CONTRIBUTING guide. Local
    development uses Node 26 and pnpm; core also needs Rust stable. Holodeck
    currently needs a sibling SDK checkout.
-2. Read the [contribution process](../CONTRIBUTING.md). Humans and coding agents
+2. Read the [contribution process](https://github.com/hyperdrive-technology/.github/blob/main/CONTRIBUTING.md). Humans and coding agents
    follow the same CI and review gates.
 3. Browse open `good first issue` items in
    [Holodeck](https://github.com/hyperdrive-technology/holodeck/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22good%20first%20issue%22),
@@ -50,5 +50,5 @@ follows M1.
    [core](https://github.com/hyperdrive-technology/core/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22good%20first%20issue%22)
    if you have access. If none are available, ask in a public repo's Discussions.
 
-See [support](../SUPPORT.md), [security reporting](../SECURITY.md), and the
-[code of conduct](../CODE_OF_CONDUCT.md). Maintainer: [@DezLitz](https://github.com/DezLitz).
+See [support](https://github.com/hyperdrive-technology/.github/blob/main/SUPPORT.md), [security reporting](https://github.com/hyperdrive-technology/.github/blob/main/SECURITY.md), and the
+[code of conduct](https://github.com/hyperdrive-technology/.github/blob/main/CODE_OF_CONDUCT.md). Maintainer: [@DezLitz](https://github.com/DezLitz).
