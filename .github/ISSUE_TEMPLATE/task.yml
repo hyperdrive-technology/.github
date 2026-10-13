@@ -1,0 +1,62 @@
+name: Task
+description: Scope implementation, tests, documentation or maintenance work.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for scoped work with a verifiable outcome. Link existing issues to avoid duplication.
+        M1's brewery demo must use the Rust WASM runtime and built Holodeck packages, with no TypeScript interpreter, mocks, shims or fallbacks in its execution path.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Choose the closest area; maintainers apply the matching label during triage.
+      options:
+        - "area:runtime"
+        - "area:compiler"
+        - "area:wasm"
+        - "area:ui"
+        - "area:holodeck"
+        - "area:sdk"
+        - "area:ci"
+        - "area:docs"
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Outcome and reason
+      description: What should change, and why does it matter?
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: List the affected packages or files and any explicit exclusions.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria and verification
+      description: List checkable results, relevant tests and how to verify the work.
+    validations:
+      required: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies and related issues
+      description: Link prerequisites, paired repository changes and known blockers.
+  - type: dropdown
+    id: milestone
+    attributes:
+      label: Intended milestone
+      description: Maintainers assign the milestone during triage.
+      options:
+        - "M1 — Brewery on WASM"
+        - "M2 — Holodeck standalone scene builder"
+        - "Native runtime track (post-M1; core only)"
+        - "No milestone / needs triage"
+    validations:
+      required: true
