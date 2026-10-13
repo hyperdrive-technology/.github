@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Holodeck Discussions
+    url: https://github.com/hyperdrive-technology/holodeck/discussions
+    about: Ask setup, usage and scene editor design questions.
+  - name: Holodeck SDK Discussions
+    url: https://github.com/hyperdrive-technology/holodeck-sdk/discussions
+    about: Discuss scene formats, registries and extension contracts.
+  - name: Security reporting
+    url: https://github.com/hyperdrive-technology/.github/blob/main/SECURITY.md
+    about: Report vulnerabilities privately using the affected repository's security reporting channel.

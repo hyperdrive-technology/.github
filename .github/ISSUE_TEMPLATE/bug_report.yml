@@ -1,0 +1,63 @@
+name: Bug report
+description: Report reproducible behaviour that differs from what you expected.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search existing issues first and file this in the affected repository.
+        For vulnerabilities, follow [SECURITY.md](https://github.com/hyperdrive-technology/.github/blob/main/SECURITY.md); do not post details here.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Choose the closest area; maintainers apply the matching label during triage.
+      options:
+        - "area:runtime"
+        - "area:compiler"
+        - "area:wasm"
+        - "area:ui"
+        - "area:holodeck"
+        - "area:sdk"
+        - "area:ci"
+        - "area:docs"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Commit or version
+      description: Include the branch and package name if relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Give numbered steps and a minimal scene, program or example where possible.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behaviour
+      description: Include the error or failure you observed.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, browser, Node/pnpm versions and Rust version where relevant; note source development or a built package.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Logs or screenshots
+      description: Remove credentials and personal data. Attach screenshots for visual problems.
